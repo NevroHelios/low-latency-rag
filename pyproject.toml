@@ -1,0 +1,21 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "colorama>=0.4.6",
+    "faiss-gpu>=1.7.2",
+    "fastapi[standard]>=0.116.1",
+    "langchain>=0.2.0,<0.3.0",  # Use older version compatible with numpy<2
+    "langchain-community>=0.2.0,<0.3.0",  # Use older version compatible with numpy<2
+    "openai>=1.99.5",
+    "pymupdf>=1.26.3",  # Enhanced PDF processing
+    "uvicorn>=0.35.0",
+    "numpy>=1.24.0,<2",
+    "pandas>=2.0.0",  # For Excel processing
+    "python-docx>=0.8.11",  # For Word document processing
+    "python-pptx>=0.6.21",  # For PowerPoint processing
+    "openpyxl>=3.1.0"  # For Excel file reading
+]
