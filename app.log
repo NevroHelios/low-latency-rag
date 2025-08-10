@@ -596,3 +596,175 @@ Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/Final
 Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
 Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
 HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D | questions=['What is my favourite city?', 'Whats my flight number?'] | answers=['Your favourite city is New York.', 'Your flight number is: 3e776a']
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D | questions=['ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?', 'ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?'] | answers=['2025 ഓഗസ്റ്റ് 6-ന്.', 'ഇത് വിദേശത്ത് നിർമ്മിക്കപ്പെട്ട കമ്പ്യൂട്ടർ ചിപുകളും സെമിക്കണ്ടക്ടറുകളുടെയും ഇറക്കുമതികളാണു് 100% ശુલ്ക്കം ബാധിക്കുക. (യുഎസിൽ നിർമ്മിക്കാൻ പ്രതിജ്ഞാബദ്ധരായ കമ്പനികൾക്ക് ഇത് ബാധകമല്ല.)']
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D | questions=['ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?', 'ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?'] | answers=['2025 ഓഗസ്റ്റ് 6-ന്.', 'വിദേശത്ത് നിർമ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളും സെമിക്കണ്ടക്ടറുകളുമാണ് 100% ഇറക്കുമതി ശുൽകത്തിന് വിധേയമായത്. (യുഎസിൽ നിർമ്മിക്കാൻ പ്രതിജ്ഞാബദ്ധരായി നിൽക്കുന്ന സ്ഥാപനങ്ങളുടെ ഉൽപ്പന്നങ്ങൾക്ക് ഇത് ബാധകമായിരിക്കില്ല.)']
+Webhook (openai) failed: Request timed out.
+Traceback (most recent call last):
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    raise exc
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_async/connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_backends/auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "/home/shrek/miniconda3/envs/rag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/openai/_base_client.py", line 1529, in request
+    response = await self._client.send(
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/shrek/miniconda3/envs/rag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/shrek/Desktop/Projects/rag/app.py", line 164, in hackrx_webhook_openai
+    answers = await rag.answer_questions(request.questions, scope_url=request.documents)
+  File "/home/shrek/Desktop/Projects/rag/rag_openai.py", line 391, in answer_questions
+    q_emb = await self._embed_texts_async(questions)
+  File "/home/shrek/Desktop/Projects/rag/rag_openai.py", line 308, in _embed_texts_async
+    resp = await self.client.embeddings.create(model=self.embedding_model, input=batch)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/openai/resources/embeddings.py", line 251, in create
+    return await self._post(
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/openai/_base_client.py", line 1794, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/openai/_base_client.py", line 1547, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D | questions=['What is my favourite city?', 'Whats my flight number?'] | answers=['Your favourite city is New York. (Retrieved from the API.)', '3b54ee']
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D | questions=['What is my flight number?'] | answers=['Your flight number is: 3cfbf3']
+Init RAG system (OpenAI)
+Webhook (openai) failed: Stream has ended unexpectedly
+Traceback (most recent call last):
+  File "/home/shrek/Desktop/Projects/rag/app.py", line 163, in hackrx_webhook_openai
+    await rag.ensure_vector_store_for_url(request.documents, seen_urls=SEEN_URLS)
+  File "/home/shrek/Desktop/Projects/rag/rag_openai.py", line 338, in ensure_vector_store_for_url
+    chunks = await self._chunk_texts(path, file_ext, use_enhanced=is_seen_url)
+  File "/home/shrek/Desktop/Projects/rag/rag_openai.py", line 299, in _chunk_texts
+    docs = PyPDFLoader(file_path).load()
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/langchain_core/document_loaders/base.py", line 30, in load
+    return list(self.lazy_load())
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/langchain_community/document_loaders/pdf.py", line 257, in lazy_load
+    yield from self.parser.parse(blob)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/langchain_core/document_loaders/base.py", line 126, in parse
+    return list(self.lazy_parse(blob))
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/langchain_community/document_loaders/parsers/pdf.py", line 122, in lazy_parse
+    pdf_reader = pypdf.PdfReader(pdf_file_obj, password=self.password)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/pypdf/_reader.py", line 136, in __init__
+    self._initialize_stream(stream)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/pypdf/_reader.py", line 158, in _initialize_stream
+    self.read(stream)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/pypdf/_reader.py", line 597, in read
+    self._find_eof_marker(stream)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/pypdf/_reader.py", line 703, in _find_eof_marker
+    line = read_previous_line(stream)
+  File "/home/shrek/Desktop/Projects/rag/.venv/lib/python3.10/site-packages/pypdf/_utils.py", line 319, in read_previous_line
+    raise PdfStreamError(STREAM_TRUNCATED_PREMATURELY)
+pypdf.errors.PdfStreamError: Stream has ended unexpectedly
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D | questions=['ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?', 'ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?', 'ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?', 'What was Apple’s investment commitment and what was its objective?', 'What impact will this new policy have on consumers and the global market?'] | answers=['അത് 2025 ആഗസ്റ്റ് 6-നാണ്.', 'വിദേശത്തിൽ നിർമ്മിക്കപ്പെട്ട കമ്പ്യൂട്ടർ ചിപ്പുകളും സെമിക്കണ്ടക്ടറുകളും 100% ഇറക്കുമതി ശുൽകത്തിനകമാണ്. (യുഎസ്സിൽ നിർമ്മാണം ചെയ്യുമെന്ന് പ്രതിജ്ഞാബദ്ധരായ കമ്പനികൾക്ക് ഈ നിർബന്ധം ബാധകമാവില്ല.)', 'അത് യുഎസിൽ നിർമ്മാണം ചെയ്യുമെന്ന് കമ്പനി ഔദ്യോഗികമായും പ്രതിജ്ഞ ചെയ്യുകയാണെങ്കിൽ. അവര്\u200d ചിപ്പുകള്\u200d/സെമിക്കണ്ടക്ടറുകള്\u200d യുഎസുകൾക്ക് ഉള്ളില്\u200d നിര്\u200dമ്മിക്കുന്നതായി പ്രതിജ്ഞ നല്\u200dകി (അഥവാ പൊതു നയപ്രകാരം സർക്കാർ അംഗീകരിക്കുന്ന നിക്ഷേപ/നിര്\u200dമ്മാണ പദ്ധതി നടപ്പാക്കുകയാണെങ്കില്\u200d) ആ കമ്പനി 100% ശുൽക്കത്തിൽ നിന്നും ഒഴിവാകും. (ഉദാഹരണം: ആപ്പിള്\u200d $600 ബില്യൺ നിക്ഷേപം പ്രഖ്യാപിച്ചതിലൂടെ ഈ വിഭാഗത്തിൽപ്പെടാനുള്ള സാധ്യത உണ്ട്.)', 'Apple pledged $600 billion in future investments. The objective was to bolster U.S. (domestic) manufacturing and reduce reliance on foreign suppliers.', 'സംഗ്രഹം: ഈ നയം (വിദേശത്തിൽ നിർമ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്/സെമികണ്ടക്ടറുകളിലേക്ക് 100% കച്ചവടശൂലം; യുഎസിൽ നിർമ്മിക്കാൻ പ്രതിജ്ഞാബദ്ധരായ കമ്പനികൾക്ക് ഒഴിവ്) ഉപഭോക്താക്കൾക്കും ആഗോള വിപണിക്കും ഇങ്ങനെ പ്രഭാവം ഉണ്ടാക്കും:\n\nഅൽപ്പംത്പോൾ (ശോർട്ട്\u200cടേം, മാസം–വർഷങ്ങൾ)\n- വിലവര്\u200dദ്ധന: സെക്രട്ടറി/ഇലക്ട്രോണിക് ഉപകരണങ്ങളിലേക്കും കാർ നിർമ്മാണ ശൃംഖലകളിലേക്കും ഇറങ്ങിയ ചെലവ് ഉയരാൻ സാധ്യത—ടാർിഫ് ചിലതും നിർമ്മാതാക്കൾ ഉപഭോക്താക്കളിൽ പാസ്സാക്കും. ഇത് ഉപഭോക്തൃ വില(smartphones, laptops, TVs,cars, IoT devices) ഉയർത്തും.\n- കുറയുന്ന ലഭ്യത/വിലാസം: ചിപ് വിതരണക്കുറവ്, വിതരണപ്രദാനം വൈകി കൊണ്ടിരിക്കുക—ഉത്പാദനതാൽക്കാലിക ശൃംഖല പ്രശ്നങ്ങൾ, പുതിയ മോഡൽ റിലീസ് ഡീലൈ.\n- പണിപ്പിരിവ് (inflation): ഇലക്ട്രോണിക് ഉൽപ്പന്നങ്ങളുടെ വില വർദ്ധനവിലൂടെ Matthews ശാസ്ത്രം കൂടിയാൽ പൊതുവായ താൽക്കാലിക ഇൻഫ്ലേഷൻമേറ്റുകൾ ഉണ്ടാവാം.\n- വിപണി സമ്മർദം: വിദേശ നിർമ്മാതാക്കൾക്ക് ആഊട്ട്\u200cപുട്ട് നഷ്ടമാകാനും വിൽപ്പന കുറയാനും സാധ്യത; ചിലയിടങ്ങളിൽ ജോലിസ്ഥല നഷ്ടം സംഭവിക്കാം.\n\nദീർഘകാലം (വർഷങ്ങൾ)\n- ആഭ്യന്തര ആധാരിത ഉത്പാദനം वृद्धि: നയത്തിന്റെ ലക്ഷ്യംപോലെ അമേരിക്കൻ ഫാബുകൾ/ഇൻവെസ്റ്റ്മെന്റുകൾ വർദ്ധിച്ച് ജോലികൾ, ടെക് പ്രഹരക്ഷണം, നൈറ്റിവ് കപ്പസിറ്റി ഉയരാൻ സാധ്യത—Apple പോലുള്ള വൻ നിക്ഷേപങ്ങൾ ഇത് വേഗമാക്കും.\n- ഫഅബ്-എഞ്ചിനീയറിംഗ് ചെലവുകളും ഉപഭോക്തൃ വിലയ്ക്ക് സ്ഥിരത: ഫാബ് നിർമ്മാണം ചെലവേറിയതും സമയമെടുക്കുന്നതും ആയതിനാൽ ചെലവ് തുടർച്ചയായി ഉയർന്നേക്കാം; ഒറ്റരാജ്യത്തിൽ കേന്ദ്രീകരിച്ചാൽ ഉൽപാദനചെലവ് ഉയരുന്നു.\n- ആഗോള വിതരണം പുനഃസംവിധാനം: കമ്പനി ചൈന/വിവിധ രാജ്യങ്ങളിൽ നിന്നൊഴിയിച്ച് അൽട്രേറ്റീവ് ലൊക്കേഷനുകളിലേക്ക് ഷിഫ്റ്റ് ചെയ്യാം (ഇന്ത്യ, VIE, മെക്സിക്കോ, യുണൈറ്റഡ് സ്റ്റേറ്റ്സ്). FDI ഫ്\u200cലോ മാറ്റങ്ങൾ, ലോജിസ്റ്റിക് ചെലവുകൾ.\n- ഭൂപട മാറ്റം/ടെക് ഡിക്ലൂഡിംഗ്: സാങ്കേതിക നീക്കങ്ങൾ, നിയന്ത്രണങ്ങൾ, അനുകരിച്ച നയങ്ങൾ (അലിയഡ് രാജ്യങ്ങൾ മാറ്റാൻ) ആഗോള ടെക് വ്യവസ്ഥ fragmentation-ആയേക്കും.\n\nജ്യാമിതീകരിച്ച അപകടങ്ങൾ\n- പ്രതിവിധികൾ: വ്യാപാര പങ്കാളികളിൽ നിന്ന് സാമ്പത്തിക പ്രതിവിധി/ടാരിഫുകൾ ഉണ്ടായാൽ മറ്റ് മേഖലകളിലും വിലയും നാശവും ഉണ്ടാകാം.\n- സർവ്വസ്വാധീനപരമായ സോഷ്യൽ+പൊലിറ്റിക്കൽ ബാധ: അന്താരാഷ്ട്ര ബന്ധങ്ങളിലും വ്യാപാരനിയമങ്ങളിലും ഉള്പ്പെടുത്തുന്ന സമ്മർദം.\n\nഉപഭോക്താവിനുള്ള മൊത്തം നിജസ്പഷ്ടി\n- ടൈംലൈൻ അനുസരിച്ച്: ആദ്യം — വിലകൂടും, വിതരണം മന്ദഗതിയിലാകും; നീണ്ടകാലം — ആഭ്യന്തര ഉത്പാദനം ശക്തിപ്പെടുമ്പോൾ ചില ദ്രവ്യങ്ങളിൽ വിലക്കൊടുവിൽ കുറവോ നിരന്തരം മികച്ച ആകൃതിയും വരാം, പക്ഷേ മൊത്തത്തിലുള്ള ചെലവ് ഉയർന്നതായിരിക്കാം, പ്രത്യേകിച്ച് ഫാബ്-നിർമിച്ച ചെലവുകൾ നിലനിർത്തുമ്പോൾ.\n- തിരഞ്ഞെടുപ്പിൽ കുറവ്, വേലയുടെ മാറ്റം (സൊഫ്റ്റ്വേര്/ഹാർഡ്\u200cവെയർ പണിപ്പുര), നയാനുസൃത അസ്ഥിരത.\n\nസംക്ഷേപം: ഉപഭോക്താക്കൾക്ക് തൽക്ഷണത്തിൽ വിലവർദ്ധനയും ലഭ്യത പ്രശ്നങ്ങളും ബാധിച്ചേക്കും; ദീർഘകാലത്ത് യു.എസ്. ഇൻവെസ്റ്റ്മെന്റുകൾ മൂലം ആഭ്യന്തര ശേഷി വർദ്ധിച്ച് സുരക്ഷ/ജോലുകൾ ഉടലെടുക്കാം, പക്ഷേ ആഗോള വ്യാപാരത്തിൽ തകർച്ചകൾ, പ്രതികാരങ്ങൾ, ഉപഭോക്തൃ ചെലവുകൾ ഉയരൽ എന്നിവയിലൂടെ മൊത്തത്തിലുള്ള സാമ്പത്തിക വിന്യാസംക്കും അസ്ഥിരതക്കും വഴിവെക്കും.']
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D | questions=['Whats the flight number?'] | answers=['I\'ll call the flights endpoint to retrieve the flight number.\nCalling GET https://register.hackrx.in/teams/public/flights/get\n{"id":"make_http_request","json":{"url":"https://register.hackrx.in/teams/public/flights/get"}}\n{"success":true,"status":200,"message":"Flight number retrieved","data":{"flight_number":"3b54ee"}}\n3b54ee']
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Init RAG system (OpenAI)
+HTTP Q/A | documents=https://register.hackrx.in/utils/get-secret-token?hackTeam=7254 | questions=['Whats the secret token?'] | answers=['The secret token is: 2c8b069887e492a62a2ca9dea5242b49ae3f66498f24beb57f320d34dcd591e0']
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D | questions=['Whats the flight number?'] | answers=['279b99']
+HTTP Q/A | documents=https://register.hackrx.in/utils/get-secret-token?hackTeam=7765 | questions=['Whats the secret token?'] | answers=['807b56441208359a5f331f43020a598746f85f11cb4af2dcbdd4bbac638b2760']
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D | questions=['ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?', 'ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?'] | answers=['2025 ഓഗസ്റ്റ് 6-ന്.', 'വിദേശത്ത് നിർമ്മിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളും സെമിക്കണ്ടക്ടറുകളും (ഇറക്കുമതി ആയ) 100% നിരക്കിലുള്ള ശുൽക്കത്തിന് വിധേയമാണ്.']
+HTTP Q/A | documents=https://register.hackrx.in/utils/get-secret-token?hackTeam=7765 | questions=['Whats the secret token?'] | answers=['The secret token is: 807b56441208359a5f331f43020a598746f85f11cb4af2dcbdd4bbac638b2760']
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D | questions=['What is my flight number?'] | answers=['Your flight number is 279b99.']
+HTTP Q/A | documents=https://register.hackrx.in/utils/get-secret-token?hackTeam=6967 | questions=['Go to the link and get the secret token and return it'] | answers=['d3dec20ae37a1d48bc1554a0d06a428500bdba7c19328e9b14f142373dde78e1']
+HTTP Q/A | documents=https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D | questions=['ട്രംപ് ഏത് ദിവസമാണ് 100% ശുൽകം പ്രഖ്യാപിച്ചത്?', 'ഏത് ഉത്പന്നങ്ങൾക്ക് ഈ 100% ഇറക്കുമതി ശുൽകം ബാധകമാണ്?', 'ഏത് സാഹചര്യത്തിൽ ഒരു കമ്പനിയ്ക്ക് ഈ 100% ശുൽകത്തിൽ നിന്നും നിന്നും ഒഴികെയാക്കും?', 'What was Apple’s investment commitment and what was its objective?', 'What impact will this new policy have on consumers and the global market?'] | answers=['ട്രംപ് 100% ശുൽകം 2025 ഓഗസ്റ്റ് 6-ന് പ്രഖ്യാപിച്ചു.', 'വിദേശത്ത് നിര്\u200dമിച്ച കമ്പ്യൂട്ടർ ചിപ്പുകളും സെമിക്കണ്ടക്ടറുകളും 100% ഇറക്കുമതി ശുൽകത്തിന് വിധേയമാണ്. (നാല്, യു.എസ്.യില്\u200d നിര്\u200dമ്മിക്കാന്\u200d പ്രതിജ്ഞാബദ്ധരായ കമ്പനികളുടെ ഉത്പന്നങ്ങള്\u200dക്ക് ഇത് ബാധകമല്ല.)', 'സംക്ഷേപം: കുറവേ വ്യക്തമാക്കിയുള്ള കൊറോണത്തില്\u200d തന്നെ — പുറത്തുനിന്നുള്ള ചിപ്പുകൾ/സെമിക്കണ്ടക്ടര്\u200d ഇറക്കുമതിക്കുള്ള 100% ശുൽകം ഒഴിവാക്കപ്പെടുന്നത് ആ കമ്പനികൾ യുഎസ്എയിൽ നിര്\u200dമാണം നടത്തുമെന്ന് പ്രതിജ്ഞാബദ്ധമാകുമ്പോൾ മാത്രം. അതായത് ഉദ്യോഗസ്ഥരും നയപരിശോധനയും അനുവദനീയതയും നേടുന്ന വിധത്തിൽ യുഎസില്\u200d നിര്\u200dമ്മാണം തുടങ്ങുന്നതായോ വലിയ നിക്ഷേപം പ്രഖ്യാപിച്ച് അതു നടപ്പിലാക്കുന്നോ ചെയ്ത സ്ഥാപനങ്ങൾ ആയിരിക്കണം (ഉദാ. ആപ്പിളിന്റെ $600 ബില്യൺ നിക്ഷേപപ്രഖ്യാപനം ഇത്തരത്തിലുള്ള ആധാരമായി കാണപ്പെടാം).', 'Apple pledged a $600 billion future investment. Its objective was to bolster U.S. domestic manufacturing (reduce reliance on foreign suppliers) and to reinforce momentum that could enable further commercial/trade measures.', 'Short answer — consumers will probably pay more and face short-term shortages, while the global semiconductor market will reconfigure, become more politicized, and see large, slow-moving investment into U.S. capacity.\n\nDetails (concise):\n\n- Short-term consumer impact\n  - Higher prices for electronics, cars, servers and anything using imported chips: a 100% tariff is likely to be passed on down the supply chain.\n  - Possible shortages or slower product rollouts as supply chains adjust — fabs and capacity can’t be ramped up overnight.\n  - Reduced choice and longer lead times for cutting‑edge components.\n\n- Medium/long-term consumer impact\n  - If U.S. onshoring succeeds (e.g., big investments like Apple’s $600B), some supply constraints could ease and more jobs may be created domestically — but benefits will take years and raise product costs in the meantime.\n  - Innovation and price competition could be affected: domestic incumbents may gain advantage, smaller players and overseas suppliers may be sidelined.\n\n- Impact on the global market\n  - Strong incentive to re‑shore or “friend‑shore” production to the U.S.; large capital investment in U.S. fabs but long lead times and high costs.\n  - Significant revenue loss for foreign chipmakers selling into the U.S.; some may try to relocate production, find legal/workaround routes, or shift sales to other markets.\n  - Higher risk of retaliatory tariffs and trade disputes, further fragmenting global trade and supply chains (decoupling).\n  - Market distortions: policy favors U.S.-made firms (exemption), which can reduce competition and invite legal/WTO challenges.\n  - Volatility in component prices, supplier consolidation, and strategic stockpiling by manufacturers.\n\nNet effect: immediate inflationary pressure on consumer electronics and industrial products plus supply disruptions; longer term a restructured, more politicized semiconductor industry with large U.S. investment but slower, costlier supply and greater global fragmentation.']
+Init RAG system (OpenAI)
+Init RAG system (OpenAI)
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/FinalRound4SubmissionPDF.pdf?sv=2023-01-03&spr=https&st=2025-08-07T14%3A23%3A48Z&se=2027-08-08T14%3A23%3A00Z&sr=b&sp=r&sig=nMtZ2x9aBvz%2FPjRWboEOZIGB%2FaGfNf5TfBOrhGqSv4M%3D
+Ensuring OpenAI Vector Store for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D
+Vector Store ready for: https://hackrx.blob.core.windows.net/hackrx/rounds/News.pdf?sv=2023-01-03&spr=https&st=2025-08-07T17%3A10%3A11Z&se=2026-08-08T17%3A10%3A00Z&sr=b&sp=r&sig=ybRsnfv%2B6VbxPz5xF7kLLjC4ehU0NF7KDkXua9ujSf0%3D

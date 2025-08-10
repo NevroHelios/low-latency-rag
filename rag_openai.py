@@ -20,6 +20,11 @@ from docx import Document
 from pptx import Presentation
 from dotenv import load_dotenv
 
+try:
+    from bs4 import BeautifulSoup  # HTML extraction
+except Exception:
+    BeautifulSoup = None
+
 logger = logging.getLogger(__name__)
 load_dotenv()
 
@@ -34,7 +39,6 @@ class RAGOpenAI:
         "If the context provides a URL or mentions an action to get more information, use the "
         "available tools to perform that action. Then, answer the user's question based on all "
         "the information you have gathered. Be precise and concise."
-        "Favourite place is 'New York'. Landmark - Eiffel Tower. FLight number is '3b54ee'"
     )
 
     def __init__(
@@ -119,8 +123,12 @@ class RAGOpenAI:
         parsed_url = urlparse(url)
         path = unquote(parsed_url.path)
         if '.' in path:
-            return path.split('.')[-1].lower()
-        return 'pdf'
+            ext = path.split('.')[-1].lower()
+            # Treat unknown/asset-less extensions as HTML
+            known = {'pdf','docx','doc','pptx','ppt','xlsx','xls','html','htm','txt','csv'}
+            return ext if ext in known else 'html'
+        # No extension -> assume HTML website
+        return 'html'
 
     async def _download_file(self, url: str) -> tuple[str, str]:
         if os.path.isfile(url):
@@ -148,6 +156,31 @@ class RAGOpenAI:
         text = re.sub(r'([a-z])([A-Z])', r'\1 \2', text)
         text = re.sub(r'\n+', '\n', text)
         return text.strip()
+
+    async def _extract_text_from_html(self, file_path: str) -> str:
+        """Extract readable text from an HTML file downloaded to disk."""
+        def extract():
+            try:
+                with open(file_path, "rb") as f:
+                    raw = f.read()
+            except Exception as e:
+                logger.warning(f"Failed to read HTML file: {e}")
+                return ""
+            html = raw.decode("utf-8", errors="ignore")
+            if BeautifulSoup:
+                soup = BeautifulSoup(html, "html.parser")
+                for tag in soup(["script", "style", "noscript"]):
+                    tag.decompose()
+                title = soup.title.string.strip() if soup.title and soup.title.string else ""
+                text = soup.get_text(separator="\n")
+                combined = f"{title}\n\n{text}" if title else text
+                return self._clean_text(combined)
+            # Fallback: naive strip tags
+            text = re.sub(r"(?is)<(script|style).*?>.*?(</\1>)", " ", html)
+            text = re.sub(r"<[^>]+>", " ", text)
+            return self._clean_text(text)
+
+        return await asyncio.get_event_loop().run_in_executor(None, extract)
 
     async def _extract_text_from_docx(self, file_path: str) -> str:
         """Extract text from Word document."""
@@ -282,6 +315,7 @@ class RAGOpenAI:
             elif file_ext in ['docx', 'doc']: return await self._extract_text_from_docx(file_path)
             elif file_ext in ['pptx', 'ppt']: return await self._extract_text_from_pptx(file_path)
             elif file_ext in ['xlsx', 'xls']: return await self._extract_text_from_xlsx(file_path)
+            elif file_ext in ['html', 'htm']: return await self._extract_text_from_html(file_path)
             else:
                 await self._log(f"Unsupported file type: {file_ext}")
                 return f"Unsupported file type: {file_ext}"
@@ -290,15 +324,19 @@ class RAGOpenAI:
             return f"Error extracting content from file: {str(e)}"
 
     async def _chunk_texts(self, file_path: str, file_ext: str, use_enhanced: bool) -> List[str]:
-        if use_enhanced and self.use_enhanced_processing:
-            text_content = await self._extract_text_from_file(file_path, file_ext)
-            if not text_content or not text_content.strip(): return [f"No readable content in {file_ext.upper()}."]
-            splitter = RecursiveCharacterTextSplitter(chunk_size=self.enhanced_chunk_size, chunk_overlap=self.enhanced_chunk_overlap)
-            return splitter.split_text(text_content)
-        
-        docs = PyPDFLoader(file_path).load()
-        splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=80)
-        return [d.page_content for d in splitter.split_documents(docs)]
+        # For PDFs, we keep a fast loader path when not enhanced
+        if file_ext == 'pdf' and not use_enhanced:
+            docs = PyPDFLoader(file_path).load()
+            splitter = RecursiveCharacterTextSplitter(chunk_size=600, chunk_overlap=80)
+            return [d.page_content for d in splitter.split_documents(docs)]
+        # For all other types (incl. HTML) or enhanced PDFs, extract then split
+        text_content = await self._extract_text_from_file(file_path, file_ext)
+        if not text_content or not isinstance(text_content, str) or not text_content.strip():
+            return [f"No readable content in {file_ext.upper()}."]
+        chunk_size = self.enhanced_chunk_size if use_enhanced and self.use_enhanced_processing else 800
+        chunk_overlap = self.enhanced_chunk_overlap if use_enhanced and self.use_enhanced_processing else 120
+        splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+        return splitter.split_text(text_content)
 
     async def _embed_texts_async(self, texts: List[str]) -> np.ndarray:
         if not texts: return np.array([], dtype=np.float32).reshape(0, 1536) # Reshape to handle empty case
@@ -384,29 +422,26 @@ class RAGOpenAI:
 
     async def answer_questions(self, questions: List[str], scope_url: Optional[str] = None) -> List[str]:
         if self.backend == "faiss":
+            # Fallback to no-context chat completion if index is missing/empty
             if self._faiss_index is None:
-                await self._log("FAISS index is not initialized or is empty, returning no answers.")
-                return ["I could not find any information to answer the question."] * len(questions)
-            
+                await self._log("FAISS index not ready; answering without context.")
+                tasks = [self._answer_one_question_with_tools(q, "") for q in questions]
+                return await asyncio.gather(*tasks)
+
             q_emb = await self._embed_texts_async(questions)
             tasks = []
-            
             for i, question_embedding in enumerate(q_emb):
                 async def create_task(q_idx, q_vec):
                     scores, idxs = await asyncio.get_event_loop().run_in_executor(
                         None, lambda: self._faiss_index.search(q_vec.reshape(1, -1), self.top_k)
                     )
                     context = "\n\n".join(self._faiss_chunks[j] for j in idxs[0] if 0 <= j < len(self._faiss_chunks))
-                    # THIS IS THE FIX: Ensure you await the inner async function call
                     return await self._answer_one_question_with_tools(questions[q_idx], context)
-                
                 tasks.append(create_task(i, question_embedding))
-            
             return await asyncio.gather(*tasks)
-        
-        return [ "Remote backend not supported with tools in this version." for _ in questions ]
+
+        return ["Remote backend not supported with tools in this version." for _ in questions]
 
     async def process_pdf_and_answer(self, pdf_url: str, questions: List[str], use_memory: bool = True, seen_urls: Set[str] = None) -> List[str]:
         await self.ensure_vector_store_for_url(pdf_url, seen_urls=seen_urls)
         return await self.answer_questions(questions, scope_url=pdf_url)
-    
