@@ -88,6 +88,11 @@ class RAGSystem:
         except Exception as e:
             self._log(f"FAISS GPU init failed, using CPU. Reason: {e}", Fore.RED)
         self._retriever = self._vectorstore.as_retriever(search_kwargs={"k": 4})
+        # Safely read ntotal
+        try:
+            ntotal = self._vectorstore.index.ntotal
+        except Exception:
+            ntotal = "unknown"
         self._log(f"Embedding + index build successful. Vectors stored: {ntotal}", Fore.GREEN)
 
     def create_vector_store(self, pdf_url: str, use_memory: bool = True) -> bool:

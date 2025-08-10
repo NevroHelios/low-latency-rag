@@ -18,7 +18,7 @@ logger.addHandler(log_file_pointer)
 LLM_MODEL = "qwen3:4b"
 EMBED_MODEL = "nomic-embed-text"
 # NEW: OpenAI defaults
-OPENAI_LLM_MODEL = "gpt-4o-mini"
+OPENAI_LLM_MODEL = "gpt-5-mini"
 OPENAI_EMBED_MODEL = "text-embedding-3-small"
 
 # Fill known URLs so we can pre-create vector stores at startup
