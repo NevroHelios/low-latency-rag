@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv
+.vscode
+.git
+.gitignore
+dist
+build
+.cache
+tests
+*.ipynb_checkpoints
