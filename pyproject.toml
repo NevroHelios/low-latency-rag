@@ -1,7 +1,7 @@
 [project]
-name = "rag"
+name = "low-latency-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "High-performance Retrieval-Augmented Generation system with dual LLM backend support, multi-format document processing, and production-ready API"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
